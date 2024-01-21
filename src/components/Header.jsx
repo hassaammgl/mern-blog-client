@@ -7,6 +7,8 @@ const Header = () => {
         <img src="companylogo.png" className="img"  alt="" />
         <div className="rightheader">
             <FaRegBell />
+            <p>Discover DevLogs</p>
+            <button>Try DevLogs</button>
         </div>
     </div>
   )

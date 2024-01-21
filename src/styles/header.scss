@@ -11,4 +11,19 @@
     .img{
         height: 8vh;
     }
+
+    .rightheader{
+        @include flexer();
+        gap: 2rem;
+
+        button{
+            // color: $color;
+            padding: .4rem .8rem;
+            border: none;
+            outline: none;
+            border-radius: 50px;
+            background: $color4;
+
+        }
+    }
 }
