@@ -1,13 +1,12 @@
 @import "./utils.scss";
 
 .header{
-    // background: #000;
     height: fit-content;
+    box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.12);
     border-bottom: $border;
     width: 100vw;
     padding: 1rem 6rem;
     @include flexer(row,space-between);
-    // color: white;
 
     h2{
         font-size: 3rem
