@@ -4,7 +4,8 @@ import { FaRegBell } from "react-icons/fa6";
 const Header = () => {
   return (
     <div className="header">
-        <img src="companylogo.png" className="img"  alt="" />
+        <h2>DevLogs.</h2>
+        {/* <img src="companylogo.png" className="img"  alt="" /> */}
         <div className="rightheader">
             <FaRegBell className="icon" />
             <p>Discover DevLogs</p>

@@ -8,9 +8,13 @@
     @include flexer(row,space-between);
     color: white;
 
-    .img{
-        height: 8vh;
+    h2{
+        font-size: 3rem
     }
+
+    // .img{
+    //     height: 8vh;
+    // }
 
     .rightheader{
         @include flexer();
