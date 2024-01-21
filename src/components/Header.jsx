@@ -6,7 +6,7 @@ const Header = () => {
     <div className="header">
         <img src="companylogo.png" className="img"  alt="" />
         <div className="rightheader">
-            <FaRegBell />
+            <FaRegBell className="icon" />
             <p>Discover DevLogs</p>
             <button>Try DevLogs</button>
         </div>
