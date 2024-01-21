@@ -23,6 +23,11 @@
             border-radius: 50px;
             background: $color4;
 
+            &:hover{
+                background: $color4a;
+                transition: all .3s ease-in-out;
+                cursor: pointer;
+            }
         }
     }
 }
