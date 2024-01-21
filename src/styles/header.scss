@@ -10,7 +10,7 @@
 
     h2{
         font-size: 3rem;
-        font-family: $font;
+        font-family: $font1;
         
     }
 
@@ -29,6 +29,7 @@
         p{
             font-size: 1.1rem;
             cursor: pointer;
+            font-family: $font2;
         }
 
         button{
@@ -37,6 +38,8 @@
             outline: none;
             border-radius: 50px;
             background: $color4;
+            font-size: 1.1rem;
+            font-family: $font2;
 
             &:hover{
                 background: $color4a;
