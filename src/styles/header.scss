@@ -1,15 +1,17 @@
 @import "./utils.scss";
 
 .header{
-    background: #000;
+    // background: #000;
     height: fit-content;
+    border-bottom: $border;
     width: 100vw;
     padding: 1rem 6rem;
     @include flexer(row,space-between);
-    color: white;
+    // color: white;
 
     h2{
         font-size: 3rem
+        
     }
 
     // .img{
@@ -21,10 +23,9 @@
         gap: 2rem;
 
         .icon{
-            color:$color3;
             font-size: 1.1rem;
         }
-
+        
         p{
             font-size: 1.1rem;
         }
