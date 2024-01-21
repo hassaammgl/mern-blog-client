@@ -9,7 +9,8 @@
     @include flexer(row,space-between);
 
     h2{
-        font-size: 3rem
+        font-size: 3rem;
+        font-family: $font;
         
     }
 
