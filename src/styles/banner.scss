@@ -42,9 +42,9 @@
       display: flex;
       margin: 1rem 0;
       align-items: center;
+      gap: 1rem;
       .icon {
         font-size: 1.5rem;
-        margin-right: 0.5rem;
       }
 
       p {
@@ -53,12 +53,20 @@
       }
     }
 
-    .review{
-        .girl{
-            height: 5vh;
-            width: 2.6vw;
-            border-radius: 50px;
-        }
+    .review {
+      display: flex;
+      margin: 1.5rem 0;
+      gap: 1rem;
+      align-items: center;
+      .girl {
+        height: 5vh;
+        width: 2.6vw;
+        border-radius: 50px;
+      }
+      p {
+        font-weight: bold;
+        font-family: $font2;
+      }
     }
   }
 }
