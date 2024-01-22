@@ -4,7 +4,8 @@ const Banner = () => {
   return (
     <div className='banner'>
         <div className="bannercontent">
-            afds
+            <button>Communication & Marketing</button>
+            <h2>The Definitive Guide to AI for Nonprofits</h2>
         </div>
     </div>
   )
