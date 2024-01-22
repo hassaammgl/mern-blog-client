@@ -5,6 +5,7 @@
   height: 49vh;
   padding: 4rem;
   color: white;
+  opacity: 0.9;
   cursor: pointer;
   margin: 2rem 16.2rem;
   border-radius: 20px;
@@ -15,7 +16,7 @@
   background-image: url("../../public/bulb.jpg");
 
   &:hover {
-    opacity: 0.9;
+    opacity: 0.8;
     transition: all 0.3s ease-in-out;
   }
 
