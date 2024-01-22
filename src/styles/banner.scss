@@ -1,0 +1,14 @@
+@import "./utils.scss";
+
+.banner{
+    width:70%;
+    margin: 2rem 15rem;
+    opacity: .8;
+    @include flexer();
+    height: 50vh;
+    border-radius: 20px;
+    background-image: url("../../public/bulb.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
