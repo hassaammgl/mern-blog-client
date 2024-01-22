@@ -1,51 +1,46 @@
 @import "./utils.scss";
 
-.header{
-    height: fit-content;
-    box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.12);
-    border-bottom: $border;
-    width: 100vw;
-    padding: 1rem 6rem;
-    @include flexer(row,space-between);
+.header {
+  height: fit-content;
+  box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.12);
+  border-bottom: $border;
+  width: 100vw;
+  padding: 1rem 6rem;
+  @include flexer(row, space-between);
 
-    h2{
-        font-size: 3rem;
-        font-family: $font1;
-        
+  h2 {
+    font-size: 3rem;
+    font-family: $font1;
+  }
+
+  .rightheader {
+    @include flexer();
+    gap: 2rem;
+
+    .icon {
+      font-size: 1.1rem;
     }
 
-    // .img{
-    //     height: 8vh;
-    // }
-
-    .rightheader{
-        @include flexer();
-        gap: 2rem;
-
-        .icon{
-            font-size: 1.1rem;
-        }
-        
-        p{
-            font-size: 1.1rem;
-            cursor: pointer;
-            font-family: $font2;
-        }
-
-        button{
-            padding: .4rem .8rem;
-            border: none;
-            outline: none;
-            border-radius: 50px;
-            background: $color4;
-            font-size: 1.1rem;
-            font-family: $font2;
-
-            &:hover{
-                background: $color4a;
-                transition: all .3s ease-in-out;
-                cursor: pointer;
-            }
-        }
+    p {
+      font-size: 1.1rem;
+      cursor: pointer;
+      font-family: $font2;
     }
+
+    button {
+      padding: 0.4rem 0.8rem;
+      border: none;
+      outline: none;
+      border-radius: 50px;
+      background: $color4;
+      font-size: 1.1rem;
+      font-family: $font2;
+
+      &:hover {
+        background: $color4a;
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
+      }
+    }
+  }
 }
