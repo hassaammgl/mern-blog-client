@@ -4,11 +4,13 @@
     width:70%;
     margin: 2rem 15rem;
     opacity: .8;
-    @include flexer();
-    height: 50vh;
+    @include flexer(center,flex-start);
+    padding: 4rem;
+    height: 49vh;
     border-radius: 20px;
     background-image: url("../../public/bulb.jpg");
     background-size: cover;
+    color: white;
     background-position: center;
     background-repeat: no-repeat;
 }
