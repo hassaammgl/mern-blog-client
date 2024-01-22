@@ -41,11 +41,16 @@
 
     .clock {
       display: flex;
-      margin: 2rem 0;
+      margin: 1rem 0;
       align-items: center;
       .icon {
         font-size: 1.5rem;
         margin-right: 0.5rem;
+      }
+
+      p{
+        font-weight: bold;
+        font-family: $font2;
       }
     }
   }
