@@ -1,5 +1,4 @@
 import React from 'react'
-import prog from "../../public/prog.jpg"
 
 const Blog = () => {
   return (
