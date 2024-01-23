@@ -13,8 +13,12 @@
   transition: all .2s ease-in-out;
 
   .top {
+    height: 30vh;
     .img {
-      height: fit-content;
+      // height: fit-content;
+      // overflow-x: hidden;
+      // height: 30vh;
+      object-fit: cover;
       width: 23vw;
     }
   }
