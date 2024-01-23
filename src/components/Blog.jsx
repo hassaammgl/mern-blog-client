@@ -1,4 +1,5 @@
 import React from "react";
+import { IoIosMail } from "react-icons/io";
 import BlogContainer from "./BlogContainer";
 
 const Blog = () => {
@@ -13,7 +14,14 @@ const Blog = () => {
           <BlogContainer />
           <BlogContainer />
         </div>
-        <div className="bloog">kadsfdaf</div>
+        <div className="bloog">
+          <div className="message">
+            <div className="msg">
+              <IoIosMail />
+            </div>
+            <h3>The Holy Grail of Nonprofit Tips ✨</h3>
+          </div>
+        </div>
       </div>
     </>
   );
