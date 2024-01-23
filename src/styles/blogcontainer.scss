@@ -1,12 +1,17 @@
 @import "./utils.scss";
 
 .blogcontainer {
-  @include flexer();
+    width: 23vw;
+    margin-left: 10rem;
+    margin-bottom: 2rem;
+    border: 2px solid black;
+    border-radius: 15px;
+  @include flexer(column);
 
   .top {
     .img {
       height: 18vh;
-      width: 20vw;
+      width: 23vw;
     }
   }
 

@@ -9,6 +9,7 @@ const BlogContainer = () => {
       </div>
       <div className="bottom">
         <button>hassaam</button>
+        <h2>The Definitive Guide to AI for Nonprofits</h2>
       </div>
     </div>
   );
