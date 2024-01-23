@@ -16,4 +16,11 @@
         flex-wrap: wrap;
         @include flexer();
     }
+
+    // @media screen and (max-width:1600px) {
+    //     margin: 2rem 10rem;
+    // }
+    // @media screen and (max-width:1025px) {
+    //     margin: 2rem 10rem;
+    // }
 }
