@@ -25,7 +25,7 @@ const Blog = () => {
             Get all of the information you need to efficiently manage your
             nonprofit with our monthly newsletter.
           </p>
-          <input type="text" placeholder="Enter your email address" />
+          <input className="input" type="text" placeholder="Enter your email address" />
           <button>Subscribe</button>
         </div>
       </div>
