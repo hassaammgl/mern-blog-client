@@ -20,7 +20,6 @@
   
   .bottom {
       @include flexer(column ,space-between,flex-start);
-    // overflow-y: hidden;
     padding: 1rem 2rem;
     height: 60vh;
     button {
@@ -40,7 +39,6 @@
     }
 
     .bottomcontent {
-        // margin-top: 1.2rem;
       @include flexer();
       overflow-y: hidden;
       gap: 6rem;
@@ -80,6 +78,6 @@
   }
 
   &:hover{
-    transform: translate(0%,1%) !important;
+    transform: translate(0%,-1%) !important;
   }
 }
