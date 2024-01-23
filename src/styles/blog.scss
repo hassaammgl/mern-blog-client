@@ -22,12 +22,27 @@
     }
 
     .bloog{
-        width: 24vw;
+        width: 22vw;
         border-radius: 10px;
-        background: purple;
+        background: $color1;
         height: 35vh;
         padding: 1rem;
+        color: white;
         @include flexer(column,flex-start);
+
+        .message{
+            @include flexer();
+
+            .msg{
+                background: $color;
+                height: 60px;
+                border-radius: 50px;
+                width: 60px;
+                @include flexer();
+                font-size: 2.8rem;
+                color: $color1;
+            }
+        }
     }
 
     @media screen and (max-width:1025px) {
