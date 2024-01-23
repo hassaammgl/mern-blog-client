@@ -3,6 +3,7 @@
 .blogcontainer {
   width: 22vw;
   margin: 2rem;
+  height:46vh;
   cursor: pointer;
   border-radius: 15px;
   @include flexer(column);
@@ -12,7 +13,8 @@
   .top {
     .img {
       height: 18vh;
-      width: 22vw;
+      width: 23vw;
+    // width: fit-content;
     }
   }
 
