@@ -7,6 +7,8 @@ const Blog = () => {
         <h2 className='h2'>Welcome to DevLogs Blog!</h2>
         <div className="blogs">
           <BlogContainer />
+          <BlogContainer />
+          <BlogContainer />
         </div>
     </div>
   )
