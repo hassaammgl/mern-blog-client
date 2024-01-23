@@ -1,24 +1,23 @@
 @import "./utils.scss";
 
 .blogcontainer {
-    width: 23vw;
-    margin-left: 10rem;
-    margin-bottom: 2rem;
-    border: 2px solid black;
-    border-radius: 15px;
+  width: 22vw;
+  margin: 2rem;
+  border: 2px solid black;
+  border-radius: 15px;
   @include flexer(column);
 
   .top {
     .img {
       height: 18vh;
-      width: 23vw;
+      width: 22vw;
     }
   }
 
   .bottom {
     padding: 1rem 2rem;
     button {
-      margin: 2rem 0;
+      margin: 0.8rem 0 1.5rem 0;
       background: $color2;
       font-size: 0.9rem;
       font-family: $font2;
@@ -27,6 +26,42 @@
       border: none;
       outline: none;
       padding: 0.2rem 1rem;
+    }
+
+    .bottomcontent{
+        @include flexer(flex-start,space-between);
+        gap: 2rem;
+
+        .clock {
+            display: flex;
+            margin: 1rem 0;
+            align-items: center;
+            gap: .5rem;
+            .icon {
+              font-size: 2rem;
+            }
+      
+            p {
+              font-weight: bold;
+              font-family: $font2;
+            }
+          }
+      
+          .review {
+            display: flex;
+            margin: 1.5rem 0;
+            gap: .5rem;
+            align-items: center;
+            .girl {
+              height: 5vh;
+              width: 2.6vw;
+              border-radius: 50px;
+            }
+            p {
+              font-weight: bold;
+              font-family: $font2;
+            }
+          }
     }
   }
 }
