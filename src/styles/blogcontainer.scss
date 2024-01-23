@@ -6,9 +6,10 @@
   height:55vh;
   overflow-y: hidden;
   cursor: pointer;
-  border-radius: 15px;
+  border-radius: 10px;
   @include flexer(column);
-  border: 2px solid black;
+  border: $border1;
+  box-shadow: $shadow;
   transition: all .2s ease-in-out;
 
   .top {
