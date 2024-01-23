@@ -19,7 +19,7 @@
   }
 
   .bottom {
-    @include flexer(column,flex-start ,space-around);
+    @include flexer(column ,space-between,flex-start);
     overflow-y: hidden;
     padding: 1rem 2rem;
     height: 60vh;
@@ -41,7 +41,7 @@
 
     .bottomcontent {
         // margin-top: 1.2rem;
-      @include flexer(flex-start, space-between);
+      @include flexer( space-between);
     //   gap: 2rem;
 
       .clock {
