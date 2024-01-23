@@ -22,7 +22,7 @@
     }
 
     .bloog{
-        width: 22vw;
+        width: 25vw;
         border-radius: 10px;
         background: $color1;
         height: 35vh;
@@ -31,16 +31,22 @@
         @include flexer(column,flex-start);
 
         .message{
+            gap: 1.5rem;
             @include flexer();
+            margin-bottom: 1rem;
 
             .msg{
                 background: $color;
                 height: 60px;
-                border-radius: 50px;
-                width: 60px;
+                border-radius: 50%  ;
+                width: 95px;
                 @include flexer();
                 font-size: 2.8rem;
                 color: $color1;
+            }
+
+            h3{
+                font-size: 2rem;
             }
         }
     }
