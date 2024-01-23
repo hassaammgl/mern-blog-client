@@ -3,7 +3,8 @@
 .blogcontainer {
   width: 22vw;
   margin: 2rem;
-  height:46vh;
+  height:48.8vh;
+  overflow-y: hidden;
   cursor: pointer;
   border-radius: 15px;
   @include flexer(column);
@@ -14,7 +15,6 @@
     .img {
       height: 18vh;
       width: 23vw;
-    // width: fit-content;
     }
   }
 
@@ -30,6 +30,10 @@
       border: none;
       outline: none;
       padding: 0.2rem 1rem;
+    }
+
+    h2{
+        font-family: $font3;
     }
 
     .bottomcontent {
