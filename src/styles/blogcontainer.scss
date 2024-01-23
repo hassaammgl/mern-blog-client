@@ -17,10 +17,10 @@
       width: 23vw;
     }
   }
-
+  
   .bottom {
-    @include flexer(column ,space-between,flex-start);
-    overflow-y: hidden;
+      @include flexer(column ,space-between,flex-start);
+    // overflow-y: hidden;
     padding: 1rem 2rem;
     height: 60vh;
     button {
@@ -41,8 +41,10 @@
 
     .bottomcontent {
         // margin-top: 1.2rem;
-      @include flexer( space-between);
-    //   gap: 2rem;
+      @include flexer();
+      overflow-y: hidden;
+      gap: 6rem;
+    width: 100%;
 
       .clock {
         display: flex;
