@@ -1,17 +1,22 @@
-import React from 'react'
-import BlogContainer from './BlogContainer'
+import React from "react";
+import BlogContainer from "./BlogContainer";
 
 const Blog = () => {
   return (
-    <div className='blog'>
-        <h2 className='h2'>Welcome to DevLogs Blog!</h2>
+    <>
+      <h2 className="h2">Welcome to DevLogs Blog!</h2>
+      <div className="blog">
         <div className="blogs">
           <BlogContainer />
           <BlogContainer />
           <BlogContainer />
+          <BlogContainer />
+          <BlogContainer />
         </div>
-    </div>
-  )
-}
+        <div className="bloog">kadsfdaf</div>
+      </div>
+    </>
+  );
+};
 
-export default Blog
+export default Blog;

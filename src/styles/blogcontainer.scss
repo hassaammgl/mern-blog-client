@@ -19,7 +19,7 @@
       // overflow-x: hidden;
       // height: 30vh;
       object-fit: cover;
-      width: 370px;
+      width: 390px;
     }
   }
 
@@ -41,15 +41,16 @@
 
     h2 {
       font-family: $font3;
+
+      @media screen and (max-width:1025px) {
+        font-size: 1.3rem;
+      }
     }
 
     .bottomcontent {
       @include flexer(flex-start,space-between);
       overflow: hidden;
-      // background: #000;
-      // gap: 6rem;
       width: 100%;
-      // color: white;
 
       .clock {
         display: flex;
@@ -73,7 +74,7 @@
         align-items: center;
         .girl {
           height: 5vh;
-          width: 2.6vw;
+          width: 45px;
           border-radius: 50px;
         }
         p {
@@ -81,6 +82,9 @@
           font-family: $font2;
         }
       }
+    }
+    @media screen and (max-width:1025px) {
+      padding: 1rem;
     }
   }
 

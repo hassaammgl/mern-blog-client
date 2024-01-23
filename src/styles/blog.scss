@@ -1,25 +1,34 @@
 @import "./utils.scss";
 
+.h2{
+     margin: 1px 0 0;
+     font-size: 2.5rem;
+     color: $color3;
+     text-align: center;
+     font-family: $font3;
+     font-weight: bold;
+ }
+
 .blog{
-    margin: 2rem 16.5rem;
+    margin: 0rem  5rem 2rem;
+    width: 85vw;
+    @include flexer();
     
-   .h2{
-        margin: 1px 0;
-        font-size: 2.5rem;
-        color: $color3;
-        text-align: center;
-        font-family: $font3;
-        font-weight: bold;
-    }
 
     .blogs{
+        width: 60vw;
         flex-wrap: wrap;
         @include flexer();
     }
 
-    // @media screen and (max-width:1600px) {
-    //     margin: 2rem 10rem;
-    // }
+    .bloog{
+        width: 24vw;
+        border-radius: 10px;
+        background: purple;
+        height: 35vh;
+        @include flexer(flex-start);
+    }
+
     @media screen and (max-width:1025px) {
         margin: 0rem 0rem;
     }
