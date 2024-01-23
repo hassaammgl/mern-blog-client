@@ -10,8 +10,10 @@ const BlogContainer = () => {
         <img src={prog} className="img" alt="" />
       </div>
       <div className="bottom">
+        <div className="bottomb">
         <button>hassaam</button>
         <h2>The Definitive Guide to AI for Nonprofits </h2>
+        </div>
         <div className="bottomcontent">
           <div className="clock">
             <PiClockFill className="icon" />
