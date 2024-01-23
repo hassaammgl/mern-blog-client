@@ -26,7 +26,8 @@
         border-radius: 10px;
         background: purple;
         height: 35vh;
-        @include flexer(flex-start);
+        padding: 1rem;
+        @include flexer(column,flex-start);
     }
 
     @media screen and (max-width:1025px) {

@@ -21,6 +21,12 @@ const Blog = () => {
             </div>
             <h3>The Holy Grail of Nonprofit Tips ✨</h3>
           </div>
+          <p>
+            Get all of the information you need to efficiently manage your
+            nonprofit with our monthly newsletter.
+          </p>
+          <input type="text" placeholder="Enter your email address"  />
+          <button>Subscribe</button>
         </div>
       </div>
     </>
