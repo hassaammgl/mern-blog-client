@@ -1,6 +1,7 @@
 import React from "react";
 import { IoIosMail } from "react-icons/io";
 import BlogContainer from "./BlogContainer";
+import { Link } from "react-router-dom";
 
 const Blog = () => {
   return (
@@ -8,7 +9,9 @@ const Blog = () => {
       <h2 className="h2">Welcome to DevLogs Blog!</h2>
       <div className="blog">
         <div className="blogs">
+          {/* <Link to={"/BlogDeatils"}> */}
           <BlogContainer />
+          {/* </Link> */}
           <BlogContainer />
           <BlogContainer />
           <BlogContainer />
