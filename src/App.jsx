@@ -3,10 +3,12 @@ import "../src/styles/utils.scss";
 import "../src/styles/header.scss";
 import "../src/styles/banner.scss";
 import Blog from "./components/Blog";
-import Header from "./components/Header"
+import "../src/styles/blogdetails.scss";
+import Header from "./components/Header";
 import Banner from "./components/Banner";
 import "../src/styles/blogcontainer.scss";
-import BlogContainer from "./components/BlogContainer";
+// import BlogContainer from "./components/BlogContainer";
+import BlogDeatils from "./components/BlogDeatils";
 
 function App() {
 
@@ -15,6 +17,7 @@ function App() {
     <Header />
     <Banner />
     <Blog />
+    <BlogDeatils />
     </>
   )
 }
