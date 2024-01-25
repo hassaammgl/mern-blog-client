@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 
 const Banner = () => {
   return (
+    
     <div className="banner">
       <div className="banner_content">
         <Link to={"/"}>Communication & Marketing</Link>

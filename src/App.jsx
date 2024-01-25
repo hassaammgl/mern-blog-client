@@ -1,11 +1,12 @@
-import "../src/styles/utils.scss";
 import "../src/styles/header.scss";
 import "../src/styles/banner.scss";
+import "../src/styles/category.scss";
+import "./styles/App.scss";
 import Header from "./components/Header";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./components/Home/Home";
 
-function App() {
+const App = () => {
   return (
     <>
       <BrowserRouter>
@@ -16,6 +17,6 @@ function App() {
       </BrowserRouter>
     </>
   );
-}
+};
 
 export default App;

@@ -1,0 +1,29 @@
+@import "./utils";
+
+.category {
+  width: 75rem;
+  height: fit-content;
+  margin: 0 auto;
+  @include flexer(row, flex-start, center);
+  span {
+      height: fit-content;
+      font-family: $font2;
+      font-weight: bolder;
+      color: $color5;
+      font-size: larger;
+      width: max-content;
+      margin-right: 4rem;
+    }
+    .tags {
+      a{
+        height: fit-content;
+        all: unset;
+        font-family: $font2;
+        background-color: $color2;
+        padding: 9px 9px;
+        border-radius: 5px;
+        margin: 0rem 3px;
+        color: white;
+    }
+  }
+}
